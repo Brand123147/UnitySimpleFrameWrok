@@ -1,0 +1,55 @@
+/* --------用visualstudio创建新项目 
+ * -----   类库.NET Framework 
+ * ------- 框架：NETFramework3.5 (注意选择，注意，注意，注意，因为unity目前支持3.5比较多，虽然现在有了4.x但是比较少人用)
+ * ------- 点击解决方案资源管理器
+ * ------  右键引用
+ * ------- 浏览打开安装unity的文件夹的\Editor\Data\Managed中的UnityEngine.dll和UnityEditor.dll(一般这两个就够看你需要用到unity的哪些api就加哪些) 
+ * ------- 编辑代码
+ * ------- 直接点击工具栏中的生成
+ * ------> 生成解决方案 
+ * ------> 它会打印出生成的路径，把LogMgr.dll文件拖到unity中即可使用*/
+//using UnityEngine;
+
+//namespace CQCFrameWork.LogMgr
+//{
+    
+//    public class LogMgr
+//    {
+//        static public bool EnableLog = false;
+//        static public void Log(object message)
+//        {
+//            Log(message, null);
+//        }
+//        static public void Log(object message, UnityEngine.Object context)
+//        {
+//            if (EnableLog)
+//            {
+//                Debug.Log(message, context);
+//            }
+//        }
+
+//        static public void LogError(object message)
+//        {
+//                LogError(message, null);
+//        }
+//        static public void LogError(object message, UnityEngine.Object context)
+//        {
+//            if (EnableLog)
+//            {
+//                Debug.LogError(message, context);
+//            }
+//        }
+//        static public void LogWarning(object message)
+//        {
+//                LogWarning(message, null);
+//        }
+//        static public void LogWarning(object message, UnityEngine.Object context)
+//        {
+//            if (EnableLog)
+//            {
+//                Debug.LogWarning(message, context);
+//            }
+//        }
+//    }
+
+//}
